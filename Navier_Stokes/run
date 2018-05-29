@@ -1,0 +1,7 @@
+rm -f *.dat
+rm -f output*.vtk
+rm -f error*.vtk
+rm -f *.o
+rm -f navier_stokes_2d
+make
+./navier_stokes_2d

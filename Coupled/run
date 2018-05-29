@@ -1,0 +1,11 @@
+rm -f params.dat
+rm -f euler_ns 
+rm -f *.vtk
+rm -f *.dat
+rm -f obj/*.o
+make
+#./euler_ns > euler_ns_output.txt 
+./euler_ns
+
+
+
